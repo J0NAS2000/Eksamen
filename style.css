@@ -9,7 +9,17 @@ body{
     margin: 0.3em;
 }
 
+nav{
+  text-align: center;
+  margin: 2rem;
+}
 
+.SoMe-icons{
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  margin: 1rem;
+}
 
 .header{
     padding: 60px;
