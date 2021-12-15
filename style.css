@@ -12,6 +12,9 @@ body{
 nav{
   text-align: center;
   margin: 2rem;
+  padding: 2rem;
+  background-color: black;
+  border-radius: 1rem;
 }
 
 .SoMe-icons{
@@ -72,9 +75,13 @@ nav{
 }
 
 .cheerz-text{
+  margin: 1rem;
   color: white;
   text-align: center;
   font-size: 2rem;
+  padding: 2rem;
+  background-color: black;
+  border-radius: 2.5rem;
 }
 
 .frederik-billede{
@@ -85,9 +92,13 @@ nav{
 }
 
 .Fred-text{
+  margin: 1rem;
   color: white;
   text-align: center;
   font-size: 2rem;
+  padding: 0.5rem;
+  background-color: black;
+  border-radius: 2.5rem;
 }
 
 
@@ -100,9 +111,13 @@ nav{
 }
 
 .logo-text{
+  margin: 1rem;
   text-align: center;
   color: white;
   font-size: 2rem;
+  padding: 2rem;
+  background-color: black;
+  border-radius: 2.5rem;
 }
 
 
@@ -110,7 +125,9 @@ nav{
 
 footer{
     text-align: center;
+    font-size: 2rem;
     background-color: black;
     color: white;
     padding: 3rem;
+    border-radius: 2.5rem;
 }
