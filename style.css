@@ -6,7 +6,6 @@
 
 body{
     background-color: #262730;
-    margin: 0.3em;
 }
 
 nav{
@@ -169,6 +168,29 @@ nav{
   margin-top: 2rem;
 }
 
+.mail-text{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 5.5rem;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 2.5rem;
+}
+
+.btn-home{
+  background-color: black;
+  border-radius: 2.5rem;
+  position: absolute;
+}
+
+.btn-text{
+  text-decoration: none;
+  color: white;
+  font-size: 6rem;
+}
 
 footer{
     text-align: center;
@@ -178,3 +200,4 @@ footer{
     padding: 3rem;
     border-radius: 2.5rem;
 }
+
