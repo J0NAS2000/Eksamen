@@ -82,6 +82,8 @@ nav{
   padding: 2rem;
   background-color: black;
   border-radius: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .frederik-billede{
@@ -99,6 +101,8 @@ nav{
   padding: 0.5rem;
   background-color: black;
   border-radius: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 
@@ -107,7 +111,6 @@ nav{
   width: 100%;
   height: auto;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 .logo-text{
@@ -118,9 +121,53 @@ nav{
   padding: 2rem;
   background-color: black;
   border-radius: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
+.poster-rumtivoli{
+  width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
 
+.rumrejsen-text{
+  margin: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: black;
+  border-radius: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.skills-text{
+  margin: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  padding: 2rem;
+  background-color: black;
+  border-radius: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.basic-text{
+  margin: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: black;
+  border-radius: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
 
 
 footer{
