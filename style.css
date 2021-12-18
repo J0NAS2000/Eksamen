@@ -9,18 +9,24 @@ body{
 }
 
 nav{
-  text-align: center;
-  margin: 2rem;
-  padding: 2rem;
-  background-color: black;
-  border-radius: 1rem;
+  display: flex;
+  position: relative;
+ justify-content: center;
+ background-color: black;
+ height: 6rem;
+ margin-bottom: 1rem;
 }
 
 .SoMe-icons{
+  height: 6rem;
+  width: 6rem;
   border-radius: 50%;
-  width: 150px;
-  height: auto;
-  margin: 1rem;
+}
+
+.SoMe-link{
+  height: 6rem;
+  width: 6rem;
+  text-align: center;
 }
 
 .header{
@@ -55,7 +61,7 @@ nav{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 4rem;
+  font-size: 1rem;
 }
 
 .billeder{
@@ -201,11 +207,16 @@ footer{
     border-radius: 2.5rem;
 }
 
-@media only screen and (min-width: 800px) {
-  body {
-    
+@media screen and (min-width: 768px) {
+  
+  .SoMe-icons{
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: white;
   }
-
 
 }
 
