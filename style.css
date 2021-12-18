@@ -61,14 +61,21 @@ nav{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
-.billeder{
-  width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+
+
+.cheerz-text{
+  margin: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2rem;
+  background-color: black;
+  border-radius: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .cheerz-logo{
@@ -76,19 +83,6 @@ nav{
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    
-}
-
-.cheerz-text{
-  margin: 1rem;
-  color: white;
-  text-align: center;
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: black;
-  border-radius: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
 }
 
 .frederik-billede{
@@ -97,20 +91,6 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
-
-.Fred-text{
-  margin: 1rem;
-  color: white;
-  text-align: center;
-  font-size: 2rem;
-  padding: 0.5rem;
-  background-color: black;
-  border-radius: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-
 
 .art-work{
   width: 100%;
@@ -154,7 +134,7 @@ nav{
   margin: 1rem;
   text-align: center;
   color: white;
-  font-size: 6rem;
+  font-size: 2rem;
   padding: 2rem;
   background-color: black;
   border-radius: 2.5rem;
@@ -166,7 +146,7 @@ nav{
   margin: 1rem;
   text-align: center;
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 2rem;
   background-color: black;
   border-radius: 2.5rem;
@@ -177,34 +157,37 @@ nav{
 .mail-text{
   position: absolute;
   top: 50%;
-  width: 100%;
+  width: 398px;
   text-align: center;
-  font-size: 5.5rem;
-  padding: 2rem;
+  font-size: 2rem;
+  margin: auto;
   background-color: black;
   color: white;
-  border-radius: 2.5rem;
+  border-radius: 1rem;
 }
 
 .btn-home{
   background-color: black;
-  border-radius: 2.5rem;
+  border-radius: 1.5rem;
   position: absolute;
 }
 
 .btn-text{
   text-decoration: none;
   color: white;
-  font-size: 6rem;
+  font-size: 2rem;
 }
 
 footer{
-    text-align: center;
-    font-size: 2rem;
-    background-color: black;
-    color: white;
-    padding: 3rem;
-    border-radius: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
