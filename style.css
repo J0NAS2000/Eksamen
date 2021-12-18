@@ -166,13 +166,11 @@ nav{
   border-radius: 1rem;
 }
 
-.btn-home{
-  background-color: black;
-  border-radius: 1.5rem;
-  position: absolute;
-}
-
 .btn-text{
+  padding: 1rem;
+  background-color: black;
+  border-radius: 1rem;
+  position: absolute;
   text-decoration: none;
   color: white;
   font-size: 2rem;
@@ -238,6 +236,18 @@ footer{
 
   .basic-text{
     font-size: 2rem;
+  }
+
+  .mail-text{
+    position: absolute;
+    top: 50%;
+    width: 768px;
+    text-align: center;
+    font-size: 4rem;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
   }
 
 }
