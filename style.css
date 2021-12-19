@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #262730;
+    background-color: #beb7a4;
 }
 
 nav{
@@ -36,7 +36,7 @@ nav{
     text-align: center;
     background: #000000;
     color: white;
-    font-size: 30px;
+    font-size: 30px; 
 }
 
 /* The hero image */
@@ -64,18 +64,20 @@ nav{
   transform: translate(-50%, -50%);
   color: white;
   font-size: 1.5rem;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .cheerz-text{
   margin: 1rem;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 1.5rem;
   padding: 2rem;
-  background-color: black;
+  background-color: white;
   border-radius: 2.5rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  font-family: 'Nunito', sans-serif;
 }
 
 .cheerz-logo{
@@ -101,13 +103,14 @@ nav{
 .logo-text{
   margin: 1rem;
   text-align: center;
-  color: white;
+  color: black;
   font-size: 2rem;
   padding: 2rem;
-  background-color: black;
+  background-color: white;
   border-radius: 2.5rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  font-family: 'Nunito', sans-serif;
 }
 
 .poster-rumtivoli{
@@ -124,22 +127,24 @@ nav{
   color: white;
   font-size: 2rem;
   padding: 2rem;
-  background-color: black;
+  background-color: #034166;
   border-radius: 2.5rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  font-family: 'Nunito', sans-serif;
 }
 
 .skills-text{
   margin: 1rem;
   text-align: center;
-  color: white;
+  color: black;
   font-size: 2rem;
   padding: 2rem;
-  background-color: black;
+  background-color: white;
   border-radius: 2.5rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  font-family: 'Nunito', sans-serif;
 }
 
 .basic-text{
@@ -152,6 +157,7 @@ nav{
   border-radius: 2.5rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  font-family: 'Nunito', sans-serif;
 }
 
 .mail-text{
@@ -164,6 +170,7 @@ nav{
   background-color: black;
   color: white;
   border-radius: 1rem;
+  font-family: 'Nunito', sans-serif;
 }
 
 .btn-text{
@@ -174,6 +181,7 @@ nav{
   text-decoration: none;
   color: white;
   font-size: 2rem;
+  font-family: 'Nunito', sans-serif;
 }
 
 footer{
@@ -186,6 +194,7 @@ footer{
   font-size: 1rem;
   background-color: black;
   color: white;
+  font-family: 'Nunito', sans-serif;
 }
 
 @media screen and (min-width: 768px) {
