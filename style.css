@@ -1,417 +1,382 @@
-
-
-  body, html {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+body,
+html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 
-body{
-    background-color: #beb7a4;
+body {
+	background-color: #beb7a4;
 }
 
-nav{
-  display: flex;
-  position: relative;
- justify-content: center;
- background-color: black;
- height: 6rem;
- margin-bottom: 1rem;
+nav {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	background-color: black;
+	height: 6rem;
+	margin-bottom: 1rem;
 }
 
-.SoMe-icons{
-  height: 6rem;
-  width: 6rem;
-  border-radius: 50%;
+.SoMe-icons {
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
 }
 
-.SoMe-link{
-  height: 6rem;
-  width: 6rem;
-  text-align: center;
+.SoMe-link {
+	height: 6rem;
+	width: 6rem;
+	text-align: center;
 }
 
-.header{
-    padding: 60px;
-    text-align: center;
-    background: #000000;
-    color: white;
-    font-size: 30px; 
+.header {
+	padding: 60px;
+	text-align: center;
+	background: #000000;
+	color: white;
+	font-size: 30px;
 }
+
 
 /* The hero image */
+
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Billeder/Herobillede2.JPG");
-
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-bottom: 2rem;
+	/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Billeder/Herobillede2.JPG");
+	/* Set a specific height */
+	height: 50%;
+	/* Position and center the image to scale nicely on all screens */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 2rem;
 }
+
 
 /* Place text in the middle of the image */
+
 .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 1.5rem;
-  font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 1.5rem;
+	font-family: 'Bebas Neue', cursive;
 }
 
-.cheerz-text{
-  margin: 1rem;
-  color: black;
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 2rem;
-  background-color: white;
-  border-radius: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  font-family: 'Nunito', sans-serif;
+.cheerz-text {
+	margin: 1rem;
+	color: black;
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 2rem;
+	background-color: white;
+	border-radius: 2.5rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	font-family: 'Nunito', sans-serif;
 }
 
-.cheerz-logo{
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+.cheerz-logo {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.frederik-billede{
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+.frederik-billede {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.art-work{
-  width: 100%;
-  height: auto;
-  text-align: center;
+.art-work {
+	width: 100%;
+	height: auto;
+	text-align: center;
 }
 
-.logo-text{
-  margin: 1rem;
-  text-align: center;
-  color: black;
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: white;
-  border-radius: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  font-family: 'Nunito', sans-serif;
+.logo-text {
+	margin: 1rem;
+	text-align: center;
+	color: black;
+	font-size: 2rem;
+	padding: 2rem;
+	background-color: white;
+	border-radius: 2.5rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	font-family: 'Nunito', sans-serif;
 }
 
-.poster-rumtivoli{
-  width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
+.poster-rumtivoli {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
 }
 
-.rumrejsen-text{
-  margin: 1rem;
-  text-align: center;
-  color: white;
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: #034166;
-  border-radius: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  font-family: 'Nunito', sans-serif;
+.rumrejsen-text {
+	margin: 1rem;
+	text-align: center;
+	color: white;
+	font-size: 2rem;
+	padding: 2rem;
+	background-color: #034166;
+	border-radius: 2.5rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	font-family: 'Nunito', sans-serif;
 }
 
-.skills-text{
-  margin: 1rem;
-  text-align: center;
-  color: black;
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: white;
-  border-radius: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  font-family: 'Nunito', sans-serif;
+.skills-text {
+	margin: 1rem;
+	text-align: center;
+	color: black;
+	font-size: 2rem;
+	padding: 2rem;
+	background-color: white;
+	border-radius: 2.5rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	font-family: 'Nunito', sans-serif;
 }
 
-.basic-text{
-  margin: 1rem;
-  text-align: center;
-  color: white;
-  font-size: 1rem;
-  padding: 2rem;
-  background-color: black;
-  border-radius: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  font-family: 'Nunito', sans-serif;
+.basic-text {
+	margin: 1rem;
+	text-align: center;
+	color: white;
+	font-size: 1rem;
+	padding: 2rem;
+	background-color: black;
+	border-radius: 2.5rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	font-family: 'Nunito', sans-serif;
 }
 
-.mail-text{
-  position: absolute;
-  top: 50%;
-  width: 398px;
-  text-align: center;
-  font-size: 2rem;
-  margin: auto;
-  background-color: black;
-  color: white;
-  border-radius: 1rem;
-  font-family: 'Nunito', sans-serif;
+.mail-text {
+	position: absolute;
+	top: 50%;
+	width: 398px;
+	text-align: center;
+	font-size: 2rem;
+	margin: auto;
+	background-color: black;
+	color: white;
+	border-radius: 1rem;
+	font-family: 'Nunito', sans-serif;
 }
 
-.btn-text{
-  padding: 1rem;
-  background-color: black;
-  border-radius: 1rem;
-  position: absolute;
-  text-decoration: none;
-  color: white;
-  font-size: 2rem;
-  font-family: 'Nunito', sans-serif;
+.btn-text {
+	padding: 1rem;
+	background-color: black;
+	border-radius: 1rem;
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+	font-family: 'Nunito', sans-serif;
 }
 
-footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 4rem;
-  width: 100%;
-  text-align: center;
-  font-size: 1rem;
-  background-color: black;
-  color: white;
-  font-family: 'Nunito', sans-serif;
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 4rem;
+	width: 100%;
+	text-align: center;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+	font-family: 'Nunito', sans-serif;
 }
 
-
-.home-link{
-  display: flex;
-  text-decoration: none;
-  justify-content: center;
-  margin: 1rem;
-  text-align: center;
-  color: black;
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: white;
-  border-radius: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  font-family: 'Nunito', sans-serif;
+.home-link {
+	display: flex;
+	text-decoration: none;
+	justify-content: center;
+	margin: 1rem;
+	text-align: center;
+	color: black;
+	font-size: 2rem;
+	padding: 2rem;
+	background-color: white;
+	border-radius: 2.5rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	font-family: 'Nunito', sans-serif;
 }
 
-a:hover{
-  color: #beb7a4;
+a:hover {
+	color: #beb7a4;
 }
 
-.Jonas-flex{
-  display: flex;
-  width: 60%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
+.Jonas-flex {
+	display: flex;
+	width: 60%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
 }
-
 
 @media screen and (min-width: 768px) {
-  nav{
-    display: flex;
-    position: relative;
-   justify-content: center;
-   background-color: black;
-   height: 10rem;
-   margin-bottom: 1.5rem;
-  }
-  
-  .SoMe-icons{
-    height: 8.5rem;
-    width: 8.5rem;
-  }
-  
-  .SoMe-link{
-    margin: 1rem;
-    height: 8.5rem;
-    width: 8.5rem;
-  }
-
-  .cheerz-logo{
-    display: block;
-    position: relative;
-    width: 500px;
-  }
-
-  .frederik-billede{
-    display: block;
-    position: relative;
-    width: 500px;
-  }
-
-  .poster-rumtivoli{
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    max-height: 650px;
-    width: auto;
-    height: auto;
-  }
-
-  .skills-text{
-    font-size: 3.5rem;
-  }
-
-  .basic-text{
-    font-size: 2rem;
-  }
-
-  .mail-text{
-    position: absolute;
-    top: 50%;
-    width: 768px;
-    text-align: center;
-    font-size: 4rem;
-    margin: auto;
-    background-color: black;
-    color: white;
-    border-radius: 1rem;
-  }
-
+	nav {
+		display: flex;
+		position: relative;
+		justify-content: center;
+		background-color: black;
+		height: 10rem;
+		margin-bottom: 1.5rem;
+	}
+	.SoMe-icons {
+		height: 8.5rem;
+		width: 8.5rem;
+	}
+	.SoMe-link {
+		margin: 1rem;
+		height: 8.5rem;
+		width: 8.5rem;
+	}
+	.cheerz-logo {
+		display: block;
+		position: relative;
+		width: 500px;
+	}
+	.frederik-billede {
+		display: block;
+		position: relative;
+		width: 500px;
+	}
+	.poster-rumtivoli {
+		display: flex;
+		flex-direction: column;
+		max-width: 500px;
+		max-height: 650px;
+		width: auto;
+		height: auto;
+	}
+	.skills-text {
+		font-size: 3.5rem;
+	}
+	.basic-text {
+		font-size: 2rem;
+	}
+	.mail-text {
+		position: absolute;
+		top: 50%;
+		width: 768px;
+		text-align: center;
+		font-size: 4rem;
+		margin: auto;
+		background-color: black;
+		color: white;
+		border-radius: 1rem;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  
-  nav{
-    display: flex;
-    position: relative;
-   justify-content: center;
-   background-color: black;
-   height: 14rem;
-   margin-bottom: 3rem;
-  }
-
-  .SoMe-icons{
-    justify-content: space-between;
-    height: 10rem;
-    width: 10rem;
-  }
-
-  .SoMe-link{
-    margin: 2rem;
-    width: 10rem;
-    height: 10rem;
-  }
-
-  h1{
-    font-size: 6rem;
-    font-weight: bold;
-  }
-
-  .multi-text{
-    font-size: 4rem;
-  }
-
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    width: 800px;
-  }
-
-  .cheerz-logo{
-    display: block;
-    position: relative;
-    width: 1000px;
-  }
-
-  .frederik-billede{
-    display: block;
-    position: relative;
-    width: 1000px;
-  }
-
-  .cheerz-text{
-    font-size: 2.5rem;
-  }
-
-  .logo-text{
-    font-size: 4rem;
-  }
-  
-  .art-work{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-.poster-rumtivoli{
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-  max-height: 800px;
-  width: auto;
-  height: auto;
-  
+	nav {
+		display: flex;
+		position: relative;
+		justify-content: center;
+		background-color: black;
+		height: 14rem;
+		margin-bottom: 3rem;
+	}
+	.SoMe-icons {
+		justify-content: space-between;
+		height: 10rem;
+		width: 10rem;
+	}
+	.SoMe-link {
+		margin: 2rem;
+		width: 10rem;
+		height: 10rem;
+	}
+	h1 {
+		font-size: 6rem;
+		font-weight: bold;
+	}
+	.multi-text {
+		font-size: 4rem;
+	}
+	.hero-text {
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+		width: 800px;
+	}
+	.cheerz-logo {
+		display: block;
+		position: relative;
+		width: 1000px;
+	}
+	.frederik-billede {
+		display: block;
+		position: relative;
+		width: 1000px;
+	}
+	.cheerz-text {
+		font-size: 2.5rem;
+	}
+	.logo-text {
+		font-size: 4rem;
+	}
+	.art-work {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.poster-rumtivoli {
+		display: flex;
+		flex-direction: column;
+		max-width: 1000px;
+		max-height: 800px;
+		width: auto;
+		height: auto;
+	}
+	.rumrejsen-text {
+		font-size: 2.5rem;
+	}
+	.skills-text {
+		font-size: 4rem;
+	}
+	.basic-text {
+		font-size: 2rem;
+	}
+	.btn-home {
+		background-color: black;
+		border-radius: 6rem;
+		position: absolute;
+	}
+	.btn-text {
+		text-decoration: none;
+		color: white;
+		font-size: 2rem;
+	}
+	.mail-text {
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		text-align: center;
+		font-size: 7rem;
+		margin: auto;
+		background-color: black;
+		color: white;
+		border-radius: 1rem;
+	}
+	footer {
+		font-size: 2rem;
+	}
 }
-
-  .rumrejsen-text{
-    font-size: 2.5rem;
-  }
-
-  .skills-text{
-    font-size: 4rem;
-  }
-
-  .basic-text{
-    font-size: 2rem;
-  }
-
-  .btn-home{
-    background-color: black;
-    border-radius: 6rem;
-    position: absolute;
-  }
-  
-  .btn-text{
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-  }
-
-  .mail-text{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 7rem;
-    margin: auto;
-    background-color: black;
-    color: white;
-    border-radius: 1rem;
-  }
-
-  footer{
-    font-size: 2rem;
-  }
-}
-
-
-
-
-
